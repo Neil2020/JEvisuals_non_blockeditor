@@ -1,50 +1,51 @@
 <?php get_header(); ?>
 
-<div class="container my-5">
+<div class="container my-5 col-lg-12 col-md-6 col-sm-3" style="max-height:75vh" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1000">
     <div class="d-flex flex-row justify-content-around flex-wrap">
-            <a href="/Clothing">
+            <a href="/Clothing" style="text-decoration:none">
                 <div class="d-flex flex-column justify-content-start">
-                <div class ="border-1 border" style="height:300px;width:300px;">
+                <div class ="border-1 border work-category-image-holder">
+                    <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-65.jpg' ?>" alt="">
                 </div>
-                <p>
+                <p class="text-dark">
                 CLOTHING
                 </p>
             </div>
             </a>
             <div class="d-flex flex-column justify-content-start">
-                <div class ="border-1 border" style="height:300px;width:300px;">
+                <div class ="border-1 border work-category-image-holder">
                 </div>
-                <p>
+                <p class="text-dark">
                 FOOD / DRINK
                 </p>
             </div>
             <div class="d-flex flex-column justify-content-start">
-                <div class ="border-1 border" style="height:300px;width:300px;">
+                <div class ="border-1 border work-category-image-holder">
                 </div>
-                <p>
+                <p class="text-dark">
                 JEWELRY
                 </p>
             </div>
         </div>
         <div class="d-flex flex-row justify-content-around flex-wrap">
             <div class="d-flex flex-column justify-content-start">
-                <div class ="border-1 border" style="height:300px;width:300px;">
+                <div class ="border-1 border work-category-image-holder" >
                 </div>
-                <p>
+                <p class="text-dark">
                 MISC.
                 </p>
             </div>
             <div class="d-flex flex-column justify-content-start">
-                <div class ="border-1 border" style="height:300px;width:300px;">
+                <div class ="border-1 border work-category-image-holder" >
                 </div>
-                <p>
+                <p class="text-dark">
                 McCORKELL
                 </p>
             </div>
             <div class="d-flex flex-column justify-content-start">
-                <div class ="border-1 border" style="height:300px;width:300px;">
+                <div class ="border-1 border work-category-image-holder" >
                 </div>
-                <p>
+                <p class="text-dark">
                 PHOTOSHOOTS
                 </p>
             </div>

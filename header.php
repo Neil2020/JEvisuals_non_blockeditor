@@ -8,20 +8,21 @@
 </head>
 <body>
 
-<div class="w-100" style="height:15vh" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
-  <div class="mx-5">
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-center">
 
-      <ul class="navbar-collapse nav mh-100 w-100 col-12 col-md-auto justify-content-around align-content-center">
-        <li><a href="#" class="h-100 text-dark nav-link px-2 pt-5"><h3 class="border-end border-dark border-2 px-4">CONTACT</h3></a></li>
-        <li><a href="#" class="h-100 text-dark nav-link px-2 pt-5"><h3 class="border-end border-dark border-2 px-4">ABOUT</h3></a></li>
-        <li><a href="<?php echo get_site_url()?>" class="nav-link px-2">
-                <img width="240px" height="150px" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logo.png'?>" alt="Site Logo" >
-            </a></li>
-        <li><a href="/Work" class="h-100 text-dark nav-link px-2 pt-5"><h3 class="border-start border-dark border-2 px-4">WORK</h3></a></li>
-        <li><a href="#" class="h-100 text-dark nav-link px-2 pt-5"><h3 class="border-start border-dark border-2 px-4">CINEMATOGRAPHY</h3></a></li>
+<div class="mx-5" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1000">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img width="240px" height="150px" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logo.png'?>" alt="Site Logo" >
+      </a>
+
+      
+      <ul class="nav nav-pills align-self-center justify-content-center">
+        <li class="nav-item"><a href="#" class="nav-link text-dark" aria-current="page">CONTACT</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark">ABOUT</a></li>
+        <li class="nav-item"><a href="/Work" class="nav-link text-dark">WORK</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark">CINEMATOGRAPHY</a></li>
       </ul>
     </header>
-    </div>
+</div>
   </div>
 
