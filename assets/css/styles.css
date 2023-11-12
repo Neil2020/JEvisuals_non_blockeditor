@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@500;600&display=swap');
-
+root{
+--vemio-vid-frame-height: 1080px;
+}
 body{
     font-family: "Monsterrat", sans-serif;
     font-size: 1.2rem;
@@ -15,6 +17,7 @@ body{
 .project-image-gallary-item{
     width: 300px;
     height: 500px ;
+    object-fit: contain;
     
 }
 
@@ -28,6 +31,29 @@ body{
     width: 300px;
     object-fit: cover;
 }
+
+.vemio-vid-frame{
+    min-width: 100%;
+    min-height:var(--vemio-vid-frame-height);
+    max-height:1080px;
+
+}
+
+.embed-container { 
+    position: relative;  
+    padding-bottom: 56.25%;
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+    } 
+    .embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    }
 
 @media screen and (max-width: 800px) {
     .work-category-image-holder{
