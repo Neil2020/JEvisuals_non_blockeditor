@@ -1,14 +1,26 @@
 <?php get_header(); ?>
     <div class="container my-3" >
-        <div class="container"data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
-            <h3>FRONT COVER<span class="project-title-span"> DOP,Editor, Colourist</span></h3>
-        </div>
         <!-- Create a Container to hold a Vemio video -->   
         <div class="container"> 
-            <div class="embed-container d-flex justify-content-center m-5 mt-0" style="width:auto;" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
-                <div class="w-100 h-100" style="float:center;">
+        <div class="container"style="width:auto"data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
+            <h3>FRONT COVER<span class="project-title-span"> DOP,Editor, Colourist</span></h3>
+        </div>
+        <div class="embed-container d-flex justify-content-center m-5 mt-0" style="width:auto;" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">    
+            <div class="w-100 h-100" style="float:center;">
                     <iframe class="vemio-vid-frame" src="https://player.vimeo.com/video/879716113?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="Front Cover MAIN"></iframe>
                 </div>
+            </div>
+        </div>
+        <div class="container" data-aos="zoom-in"  data-aos-duration="1000">
+            <div class="row col-12 justify-content-between justify-content-md-between justify-content-sm-center m-3 gy-5">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-43.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-48.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-57.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-60.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-65.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-67.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-80.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-84.jpg' ?>" alt="">
             </div>
         </div>
         <div class="container">
@@ -28,6 +40,14 @@
                     </iframe>
                 </div>
         </div>        
+        </div>
+        <div class="container" data-aos="zoom-in"  data-aos-duration="1000">
+            <div class="row col-12 justify-content-between justify-content-md-between justify-content-sm-center m-3 gy-5">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-43.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-48.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-57.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-60.jpg' ?>" alt="">
+            </div>
         </div>
         <div class="container"data-aos="zoom-in"  data-aos-duration="1000">
             <h3>JD SPORTS X NIKE <span class="project-title-span">DOP, Editor, Colourist</span></h3>
