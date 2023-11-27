@@ -25,22 +25,25 @@
             <a href="/Jewelry" style="text-decoration:none">
             <div class="d-flex flex-column justify-content-start">
                 <div class ="border-1 border work-category-image-holder">
-                    <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-65.jpg' ?>" alt="">
+                <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-940.png' ?>" alt="">
                 </div>
                 <p class="text-dark">
                 JEWELRY
                 </p>
             </div>
+            </a>
         </div>
-        </a>
         <div class="d-flex flex-row justify-content-around flex-wrap">
-            <div class="d-flex flex-column justify-content-start">
-                <div class ="border-1 border work-category-image-holder" >
+            <a href="/misc" style="text-decoration:none">
+                <div class="d-flex flex-column justify-content-start">
+                <div class ="border-1 border work-category-image-holder">
+                        <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/MISC/Misc_Logo.png' ?>" alt="">
+                    </div>
+                    <p class="text-dark">
+                    MISC.
+                    </p>
                 </div>
-                <p class="text-dark">
-                MISC.
-                </p>
-            </div>
+            </a>
             <div class="d-flex flex-column justify-content-start">
                 <div class ="border-1 border work-category-image-holder" >
                 </div>

@@ -31,9 +31,8 @@
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-965.jpg' ?>" alt="">
             </div>
         </div>
-        <div class="container">
-            <div class="container" data-aos="zoom-in"  data-aos-duration="1000">
-                <div class="row justify-content-md-center justify-content-sm-center align-items-md-center align-items-sm-center " style="width:100%;height:fit-content">
+        <div class="container" data-aos="zoom-in"  data-aos-duration="1000">
+                <div class="row col-12 justify-content-between  justify-content-sm-center align-items-md-center align-items-sm-center " style="width:100%;height:fit-content">
                                 <iframe style="width:28%; min-width:400px;height:75vh" src="https://player.vimeo.com/video/877775620/?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
                                 </iframe>
                                 <iframe style="width:28%; min-width:400px;height:75vh" src="https://player.vimeo.com/video/877775730/?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
@@ -42,7 +41,6 @@
                                 </iframe>
                     </div>
             </div>  
-        </div>
         <div class="container"> 
         <div class="container"style="width:auto"data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
             <h3>HOS<span class="project-title-span"> DOP, Editor, Colourist</span></h3>

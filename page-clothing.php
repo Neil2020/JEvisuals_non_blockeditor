@@ -11,16 +11,14 @@
                 </div>
             </div>
         </div>
-        <div class="container" data-aos="zoom-in"  data-aos-duration="1000">
-            <div class="row col-12 justify-content-between justify-content-md-between justify-content-sm-center m-3 gy-5">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-43.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-48.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-57.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-60.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-65.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-67.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-80.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-84.jpg' ?>" alt="">
+        <div class="container d-flex justify-content-center" data-aos="zoom-in"  data-aos-duration="1000">
+            <div class="row col-lg-9 col-md-9 col-sm-12 justify-content-between justify-content-md-between justify-content-sm-center m-3 gy-5">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Front_Cover/Front_Cover_1.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Front_Cover/Front_Cover_2.png' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Front_Cover/Front_Cover_3.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Front_Cover/Front_Cover_4.png' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Front_Cover/Front_Cover_5.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Front_Cover/Front_Cover_6.png' ?>" alt="">
             </div>
         </div>
         <div class="container">
@@ -43,10 +41,10 @@
         </div>
         <div class="container" data-aos="zoom-in"  data-aos-duration="1000">
             <div class="row col-12 justify-content-between justify-content-md-between justify-content-sm-center m-3 gy-5">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-43.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-48.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-57.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-60.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/HSU/HSU_Img_1.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/HSU/HSU_Img_2.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/HSU/HSU_Img_3.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/HSU/HSU_Img_4.jpg' ?>" alt="">
             </div>
         </div>
         <div class="container"data-aos="zoom-in"  data-aos-duration="1000">

@@ -18,7 +18,7 @@
 
       <ul class="nav nav-pills align-self-center justify-content-center">
       <li class="nav-item"><a href="/Work" class="nav-link text-dark">WORK</a></li>
-      <li class="nav-item"><a href="#" class="nav-link text-dark">CINEMATOGRAPHY</a></li>
+      <li class="nav-item"><a href="/Cinematography" class="nav-link text-dark">CINEMATOGRAPHY</a></li>
       <li class="nav-item"><a href="#" class="nav-link text-dark">ABOUT</a></li>
       <li class="nav-item"><a href="#" class="nav-link text-dark" aria-current="page">CONTACT</a></li>  
       </ul>
