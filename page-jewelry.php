@@ -17,18 +17,18 @@
             </div>
             <div class="container" data-aos="zoom-in"  data-aos-duration="1000">
             <div class="row col-12 justify-content-between justify-content-md-between justify-content-sm-center m-3 gy-5">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-947.png' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-940.png' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-948.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-932.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-955.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-971.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-973.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-953.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-977.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-952.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-925.jpg' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-965.jpg' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-947.webp' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-940.webp' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-948.webp' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-932.webp' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-955.webp' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-971.webp' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-973.webp' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-953.webp' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-977.webp' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-952.webp' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-925.webp' ?>" alt="">
+                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-965.webp' ?>" alt="">
             </div>
         </div>
         <div class="container" data-aos="zoom-in"  data-aos-duration="1000">

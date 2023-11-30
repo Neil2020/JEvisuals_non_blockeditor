@@ -5,7 +5,7 @@
             <a href="/Clothing" style="text-decoration:none">
                 <div class="d-flex flex-column justify-content-start">
                 <div class ="border-1 border work-category-image-holder">
-                    <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-65.jpg' ?>" alt="">
+                    <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-65.webp' ?>" alt="">
                 </div>
                 <p class="text-dark">
                 CLOTHING
@@ -15,7 +15,7 @@
             <a href="/food_and_drink" style="text-decoration:none">
             <div class="d-flex flex-column justify-content-start">
                 <div class ="border-1 border work-category-image-holder">
-                <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-65.jpg' ?>" alt="">
+                <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-65.webp' ?>" alt="">
                 </div>
                 <p class="text-dark">
                 FOOD / DRINK
@@ -25,7 +25,7 @@
             <a href="/Jewelry" style="text-decoration:none">
             <div class="d-flex flex-column justify-content-start">
                 <div class ="border-1 border work-category-image-holder">
-                <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-940.png' ?>" alt="">
+                <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-940.webp' ?>" alt="">
                 </div>
                 <p class="text-dark">
                 JEWELRY
@@ -37,7 +37,7 @@
             <a href="/misc" style="text-decoration:none">
                 <div class="d-flex flex-column justify-content-start">
                 <div class ="border-1 border work-category-image-holder">
-                        <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/MISC/Misc_Logo.png' ?>" alt="">
+                        <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/MISC/Misc_Logo.webp' ?>" alt="">
                     </div>
                     <p class="text-dark">
                     MISC.
