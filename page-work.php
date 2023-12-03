@@ -51,6 +51,7 @@
                 McCORKELL
                 </p>
             </div>
+            <a href="/photoshoot" style="text-decoration:none">
             <div class="d-flex flex-column justify-content-start">
                 <div class ="border-1 border work-category-image-holder" >
                 </div>
@@ -58,6 +59,7 @@
                 PHOTOSHOOTS
                 </p>
             </div>
+            </a>
         </div>
     </div>
 </div>
