@@ -7,9 +7,20 @@
     <?php wp_head(); ?>
 </head>
 <body>
+<div class="page-transition">
+  <div class="custom-site-logo">
+    <div class="s_logo_letters">
+      <img class="s_logo s_logo_j s_logo_j_active" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logo/logo_J.webp'?>" alt="">
+      <img class="s_logo s_logo_e s_logo_e_active" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logo/logo_E.webp'?>" alt="">
+    </div>
+    <div class="s_logo_vis_div">
+      <img class="s_logo s_logo_vis" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logo/logo_visuals.webp'?>" alt="">
+    </div>
+  </div>
+</div> 
 
 
-<div class="mx-5" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1000">
+<div class="mx-5" >
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
         <img width="160px" height="100px" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logo.png'?>" alt="Site Logo" >

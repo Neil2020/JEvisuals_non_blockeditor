@@ -1,13 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@500;600&display=swap');
+
 root{
---vemio-vid-frame-height: 1080px;
+    --vemio-vid-frame-height: 1080px;
+    }
+    body{
+        font-family: "Monsterrat", sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        color: #000000;
+    }
+.page-transition{
+    position: absolute;
+    overflow: visible;
+    opacity: 1;
+    z-index: 1000;
+    height: 150vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    transition: all 1s;
+
 }
-body{
-    font-family: "Monsterrat", sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #000000;
+.page-transition_zoomOut{
+    opacity: 0;
+    transform: scale(30);
+    overflow: hidden;
 }
+.custom-site-logo{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.s_logo_letters{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.s_logo {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 0px 0px 0px 0px;
+}
+.s_logo_j_active{
+    transform: rotate(-90deg);
+}
+.s_logo_e_active{
+    transform: rotate(90deg);
+}
+.s_logo_vis_div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.s_logo_vis {
+    width: 400px;
+    height: 100px;
+    object-fit: contain;
+    margin: 0px 0px 0px 0px;
+    z-index: 1001;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 2s;
+}
+.s_logo_vis_show {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+/*changing Vemio */
+    iframe > html >  body.vp-center {
+        display:block !important
+    }
+/**/
+
 
 .project-title-span{
     font-size: 22px;
@@ -15,6 +89,7 @@ body{
 }
 
 .project-image-gallary-item{
+    padding: 0px !important;
     width: 300px;
     height: 500px ;
     object-fit: contain;
@@ -32,6 +107,7 @@ body{
 }
 
 .vemio-vid-frame{
+    padding: 0px !important;
     min-width: 100%;
     min-height:var(--vemio-vid-frame-height);
     max-height:1080px;
@@ -56,7 +132,7 @@ body{
 
 @media screen and (max-width: 800px) {
     .work-category-image-holder{
-        width: auto;
+        width: 80vw;
         height: 80vh;
     }
     .work-category-image{

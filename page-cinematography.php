@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <div class="container">
-        <div class="single-cinematography-section mb-5 pb-2" data-aos="zoom-in"  data-aos-duration="1000">
+        <div class="single-cinematography-section mb-5 pb-2" >
             <div class="cinematography-section-main" data-aos="zoom-in"  data-aos-duration="1000">
                 <div class="c-title">
                     <h1>THE TRAIN AT 5PM</h1>
@@ -44,8 +44,8 @@
                 <p>CURRENTLY IN A FESTIVAL RUN, COMING SOON</p>
             </div>
         </div>
-        <div class="single-cinematography-section mb-5 pb-2" data-aos="zoom-in"  data-aos-duration="1000">
-            <div class="cinematography-section-main" data-aos="zoom-in"  data-aos-duration="1000">
+        <div class="single-cinematography-section mb-5 pb-2">
+            <div class="cinematography-section-main">
                 <div class="c-title">
                     <h1>GEN Z UNRAVELLED</h1>
                 </div>
@@ -79,7 +79,7 @@
                     </div>
                 </div>
             </div>
-            <div class="c-snapshots" data-aos="zoom-in"  data-aos-duration="1000">
+            <div class="c-snapshots">
                     <img class="c-snapshot-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/GEN_Z_UNRAVELLED/GEN_Z_1.webp' ?>" alt="">
                     <img class="c-snapshot-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/GEN_Z_UNRAVELLED/GEN_Z_2.webp' ?>" alt="">
                     <img class="c-snapshot-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/GEN_Z_UNRAVELLED/GEN_Z_3.webp' ?>" alt="">
