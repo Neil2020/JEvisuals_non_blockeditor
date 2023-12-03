@@ -10,11 +10,11 @@
 <div class="page-transition">
   <div class="custom-site-logo">
     <div class="s_logo_letters">
-      <img class="s_logo s_logo_j s_logo_j_active" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logo/logo_J.webp'?>" alt="">
-      <img class="s_logo s_logo_e s_logo_e_active" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logo/logo_E.webp'?>" alt="">
+      <img class="s_logo s_logo_j s_logo_j_active" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logos/logo_J.webp'?>" alt="">
+      <img class="s_logo s_logo_e s_logo_e_active" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logos/logo_E.webp'?>" alt="">
     </div>
     <div class="s_logo_vis_div">
-      <img class="s_logo s_logo_vis" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logo/logo_visuals.webp'?>" alt="">
+      <img class="s_logo s_logo_vis" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logos/logo_visuals.webp'?>" alt="">
     </div>
   </div>
 </div> 
