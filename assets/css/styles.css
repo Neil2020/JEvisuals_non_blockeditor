@@ -76,6 +76,108 @@ root{
     opacity: 1;
 }
 
+/*navbar*/
+.mobile-menu-button{
+    display: none;
+}
+@media screen and (max-width:767px){
+
+    .mobile-menu-button{
+        display: block;
+        position: fixed;
+        z-index: 99;
+        bottom: 10%;
+        right: 5%;
+        width: 30px;
+        height: 30px;
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+        transition: all 2s;
+    }
+    .mobile-menu-button > svg{
+        color: #000000;
+    }
+    .menu-items{
+        transition:all 2s;
+        position:fixed;
+        z-index:99;
+        right:0%;
+        bottom:5%;
+        float:right;
+        transform:translateX(100%);
+    }
+    
+    .menu-items ul{
+        display:flex;
+        flex-direction:column;
+        backdrop-filter: invert(1);
+        -webkit-backdrop-filter:invert(1)
+    }
+    
+    .menu-items ul li.nav-item{
+        border-bottom:0.5px solid #fff; 
+    }
+    .menu-items ul li.nav-item a{
+        color:#fff !important;
+    }}
+
+    .show-mobile-menu{
+        transform:translateX(0%);
+    }
+    .inline-svg {
+        display:block;
+        margin:0 auto;
+        width: 60px;
+        height: 60px;
+        }
+        
+        .desktop-menu-icon .svg-menu-toggle {
+            pointer-events:all;
+            cursor:pointer;
+      
+        .bar {
+            -webkit-transform:rotate(0) translateY(0) translateX(0);
+            transform:rotate(0) translateY(0) translateX(0);
+            opacity:1;
+            -webkit-transform-origin: 20px 10px;
+            transform-origin: 20px 10px;
+            -webkit-transition: -webkit-transform 0.4s ease-in-out, opacity 0.2s ease-in-out;
+            transition: transform 0.4s ease-in-out, opacity 0.2s ease-in-out;
+            }
+          
+          .bar:nth-of-type(1) {
+            -webkit-transform-origin: 20px 10px;
+            transform-origin: 20px 10px;
+          }
+          
+          .bar:nth-of-type(3) {
+            -webkit-transform-origin: 20px 20px;
+            transform-origin: 20px 20px;
+          }
+        }
+      
+        .desktop-menu-icon.active .svg-menu-toggle {
+          
+          .bar:nth-of-type(1) {
+          -webkit-transform:rotate(-45deg) translateY(0) translateX(0);
+          transform:rotate(-45deg) translateY(0) translateX(0);
+          }
+      
+          .bar:nth-of-type(2) {
+            opacity:0;
+          }
+      
+        .bar:nth-of-type(3) {
+          -webkit-transform:rotate(45deg) translateY(0em) translateX(0em);
+          transform:rotate(45deg) translateY(0em) translateX(0em);
+        }
+      }
+
+/*navbar End*/
+
+
 /*changing Vemio */
     iframe > html >  body.vp-center {
         display:block !important

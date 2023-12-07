@@ -82,4 +82,20 @@
         }, 4000);
     }
 
+    //Mobile Menu Function
+    $('.mobile-menu-button').on('click', function(){
+        let width = $('.menu-items').outerWidth();
+        if($('.menu-items').hasClass('show-mobile-menu')){
+            $('.desktop-menu-icon').removeClass('active');
+            $('.mobile-menu-button').css('transform','translateX(0px)')
+            $('.menu-items').removeClass('show-mobile-menu');
+        }else{
+            $('.desktop-menu-icon').addClass('active');
+            $('.mobile-menu-button').css('transform','translateX(-'+width+'px)')
+            $('.menu-items').addClass('show-mobile-menu');
+
+        }});
+        
+
+
 })( jQuery );
