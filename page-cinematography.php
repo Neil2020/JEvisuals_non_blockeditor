@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <div class="container">
-        <div class="single-cinematography-section mb-5 pb-2" >
+        <div class="single-cinematography-section mb-5 pb-5" >
             <div class="cinematography-section-main" data-aos="zoom-in"  data-aos-duration="1000">
                 <div class="c-title">
                     <h1>THE TRAIN AT 5PM</h1>
@@ -8,7 +8,7 @@
                 <div class="c-poster">
                 <img class="cinematography-main-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/TRAIN_AT_5/TRAIN_AT_5_PM.webp' ?>" alt="">
                 </div>
-                <div class="c-details">
+                <div class="c-details ms-md-5  mt-md-0 mt-5">
                     <div class="c-details-section">
                         <h1>DIRECTED BY</h1>
                         <p>Jonah McLachlan</p>
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="c-snapshots" data-aos="zoom-in"  data-aos-duration="1000">
+            <div class="c-snapshots mt-md-5" >
                     <img class="c-snapshot-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/TRAIN_AT_5/TRAIN_1.webp' ?>" alt="">
                     <img class="c-snapshot-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/TRAIN_AT_5/TRAIN_2.webp' ?>" alt="">
                     <img class="c-snapshot-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/TRAIN_AT_5/TRAIN_3.webp' ?>" alt="">
@@ -44,7 +44,7 @@
                 <p>CURRENTLY IN A FESTIVAL RUN, COMING SOON</p>
             </div>
         </div>
-        <div class="single-cinematography-section mb-5 pb-2">
+        <div class="single-cinematography-section mt-5 pt-5 mb-5 pb-5">
             <div class="cinematography-section-main">
                 <div class="c-title">
                     <h1>GEN Z UNRAVELLED</h1>
@@ -52,8 +52,8 @@
                 <div class="c-poster">
                 <img class="cinematography-main-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/GEN_Z_UNRAVELLED/GEN_Z_UNRAVELLED.webp' ?>" alt="">
                 </div>
-                <div class="c-details">
-                    <div class="c-details-section">
+                <div class="c-details ms-md-5">
+                    <div class="c-details-section ">
                         <h1>DIRECTED BY</h1>
                         <p>Cordelia Harris</p>
                     </div>
@@ -79,7 +79,7 @@
                     </div>
                 </div>
             </div>
-            <div class="c-snapshots">
+            <div class="c-snapshots mt-md-5">
                     <img class="c-snapshot-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/GEN_Z_UNRAVELLED/GEN_Z_1.webp' ?>" alt="">
                     <img class="c-snapshot-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/GEN_Z_UNRAVELLED/GEN_Z_2.webp' ?>" alt="">
                     <img class="c-snapshot-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/GEN_Z_UNRAVELLED/GEN_Z_3.webp' ?>" alt="">

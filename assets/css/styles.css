@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
 root{
     --vemio-vid-frame-height: 1080px;
@@ -8,6 +8,14 @@ root{
         font-size: 1.2rem;
         line-height: 1.5;
         color: #000000;
+    }
+    h1,h2,h3{
+        font-family: 'Montserrat', sans-serif;;
+        font-weight: 600;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
     }
 .page-transition{
     position: absolute;
@@ -112,15 +120,19 @@ root{
     .menu-items ul{
         display:flex;
         flex-direction:column;
-        backdrop-filter: invert(1);
-        -webkit-backdrop-filter:invert(1)
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
     }
     
     .menu-items ul li.nav-item{
-        border-bottom:0.5px solid #fff; 
+        border-bottom:0.5px solid #000; 
     }
     .menu-items ul li.nav-item a{
-        color:#fff !important;
+        color:#000 !important;
     }}
 
     .show-mobile-menu{
@@ -180,10 +192,9 @@ root{
 
 /*changing Vemio */
     iframe > html >  body.vp-center {
-        display:block !important
+        display:block !important;
     }
 /**/
-
 
 .project-title-span{
     font-size: 22px;
@@ -193,18 +204,20 @@ root{
 .project-image-gallary-item{
     padding: 0px !important;
     width: 300px;
-    height: 500px ;
+    height: 480px ;
     object-fit: contain;
     
 }
 
 .work-category-image-holder{
-    height: 300px;
-    width: 300px;
+    width: 20vw;
+    height: 30vh;
+    max-height: 300px;
+    max-width: 300px;
 }
 .work-category-image{
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -213,7 +226,10 @@ root{
     min-width: 100%;
     min-height:var(--vemio-vid-frame-height);
     max-height:1080px;
-
+}
+.vemio-width-container{
+    max-width: 1000px;
+    max-height: 800px;
 }
 
 .embed-container { 
@@ -221,7 +237,8 @@ root{
     padding-bottom: 56.25%;
     height: 0; 
     overflow: hidden; 
-    max-width: 100%; 
+    width: 100%;
+    max-width: 1200px;
     height: auto; 
     } 
     .embed-container iframe, .embed-container object, .embed-container embed { 
@@ -254,9 +271,11 @@ root{
 }
 
 .c-title{
-    width: 30%;
+    width: 35%;
 }
-
+.c-title > h1{
+    font-weight: 100;
+}
 .c-poster{
     width:30%;
 }

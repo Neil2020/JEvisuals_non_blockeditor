@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container my-5 col-lg-12 col-md-6 col-sm-3" style="max-height:75vh" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1000">
+<div class="container my-0 col-lg-12 col-md-6 col-sm-3" style="max-height:800px">
     <div class="d-flex flex-row justify-content-around flex-wrap">
             <a href="/Clothing" style="text-decoration:none">
                 <div class="d-flex flex-column justify-content-start">

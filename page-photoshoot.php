@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container">
 <div class="container">
-            <div class="row col-12 justify-content-between justify-content-md-between justify-content-sm-center m-0">
+            <div class="row col-9 justify-content-between justify-content-md-between justify-content-sm-center m-auto">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/PhotoShoots/1.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/PhotoShoots/2.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/PhotoShoots/3.webp' ?>" alt="">
@@ -16,7 +16,6 @@
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/PhotoShoots/12.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/PhotoShoots/13.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/PhotoShoots/14.webp' ?>" alt="">
-                <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/PhotoShoots/15.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/PhotoShoots/15_0.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/PhotoShoots/16.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/PhotoShoots/17.webp' ?>" alt="">
