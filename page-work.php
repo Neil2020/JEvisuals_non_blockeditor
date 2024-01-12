@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container my-0 col-lg-12 col-md-6 col-sm-3" style="max-height:800px">
+<div class="container my-3 col-lg-12 col-md-6 col-sm-3" style="max-height:800px">
     <div class="d-flex flex-row justify-content-around flex-wrap">
             <a class=work-container-block  href="/Clothing" style="text-decoration:none">
                 <div class="d-flex flex-column justify-content-start">

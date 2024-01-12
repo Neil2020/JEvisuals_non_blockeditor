@@ -433,18 +433,36 @@ a.work-container-block:hover{
 }
 
 /*Form*/
+span.wpcf7-not-valid-tip{
+    position: absolute;
+    font-size: 12px !important;
+}
+form p input[type="submit"]{
+    border-radius: 20px;
+    border: 1px solid #000000 !important;
+    background-color: #FFFFFF !important;
+}
 form p label{
     font-style: italic;
 }
 form p input{
-    border-radius: 30px; 
+    border:none !important;
+    border-bottom: 1px solid #000000  !important
 }
 form p input[type="submit"]:hover{
     transition: all 1s ease-in-out;
     scale: 1.1;
 }   
 form p textarea{
-    border-radius: 30px;
+    border:none !important;
+    border-bottom: 1px solid #000000 !important;
+    
+}
+.wpcf7-response-output{
+    font-style: italic;
+    font-size: 12px;
+    margin: 0px !important;
+    max-width: 80%;
 }
 
 form {
@@ -467,6 +485,9 @@ form {
         justify-content: center;
         align-content: center;
         flex-direction: column;
+    }
+    .wpcf7-response-output{
+        text-align: center;
     }
 }
 
@@ -495,3 +516,15 @@ form {
     transition: all 1s ease-in-out;
 }
 /*404 End*/
+
+
+/*header svg animation */
+
+@keyframes animateBorders {
+
+}
+
+#site-logo-header-svg:hover{
+    transition: all 1s ease-in-out;
+    scale: 1.1;
+}

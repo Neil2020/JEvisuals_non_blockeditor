@@ -22,7 +22,7 @@
 <div class="container" style="max-width:1200px;">
 <div class=" header-container" >
     <header class="d-flex flex-wrap justify-content-center m-auto p-auto border-bottom">
-      <a href="/" class="d-flex align-items-center my-5 my-md-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <a id="site-logo-header-svg" href="/" class="d-flex align-items-center my-5 my-md-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
         <img width="160px" height="100px" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logo.svg'?>" alt="Site Logo" >
       </a>
       <div class="mobile-menu-button">
