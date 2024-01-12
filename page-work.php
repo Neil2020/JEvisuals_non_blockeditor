@@ -22,7 +22,7 @@
                 </p>
             </div>
             </a>
-            <a class=work-container-block href="/Jewelry" style="text-decoration:none">
+            <a class=work-container-block href="/jewelry" style="text-decoration:none">
             <div class="d-flex flex-column justify-content-start">
                 <div class ="border-1 border work-category-image-holder">
                 <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/Work_Tnails/Jewellery.webp' ?>" alt="">
@@ -44,7 +44,7 @@
                     </p>
                 </div>
             </a>
-            <a class=work-container-block href="/McCorkell" style="text-decoration:none">
+            <a class=work-container-block href="/mccorkell" style="text-decoration:none">
                 <div class="d-flex flex-column justify-content-start">
                 <div class ="border-1 border work-category-image-holder">
                         <img class="work-category-image" src="<?php echo get_template_directory_uri() . '/assets/img/Work_Tnails/McCorkell.webp' ?>" alt="">
