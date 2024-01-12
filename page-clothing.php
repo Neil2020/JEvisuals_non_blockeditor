@@ -9,7 +9,7 @@
         </div>
         </div>  
         <div class="container d-flex justify-content-center" >
-            <div class="mobile-photo-gallery row col-lg-9 col-md-9 col-sm-12 justify-content-center justify-content-lg-between justify-content-md-between justify-content-sm-center m-auto my-4">
+            <div class="row col-lg-9 col-12 justify-content-center justify-content-md-between justify-content-sm-center m-auto m-auto my-4">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Front_Cover/Front_Cover_1.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Front_Cover/Front_Cover_2.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Front_Cover/Front_Cover_3.webp' ?>" alt="">
@@ -32,7 +32,7 @@
         </div>
         </div>
         <div class="container" >
-            <div class=" mobile-photo-gallery row col-lg-12 col-md-9 col-sm-12 justify-content-center justify-content-lg-between justify-content-md-between justify-content-sm-center m-3 gy-5">
+            <div class=" row col-lg-12 col-md-9 col-sm-12 justify-content-center justify-content-lg-between justify-content-md-between justify-content-sm-center m-3 gy-5">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/HSU/HSU_Img_1.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/HSU/HSU_Img_2.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/HSU/HSU_Img_3.webp' ?>" alt="">
@@ -53,7 +53,7 @@
                 </div>
             </div>
         <div class="container">
-            <div class="mobile-photo-gallery row col-lg-12 col-md-12 col-sm-12 justify-content-center justify-content-lg-between justify-content-center m-3">
+            <div class="row col-lg-12 col-md-12 col-sm-12 justify-content-center justify-content-lg-between justify-content-center m-3">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-43.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-48.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/Project-JD-SPORTS/JD X NIKE - CALEB-57.webp' ?>" alt="">

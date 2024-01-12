@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <div class="container">
-        <div class="single-cinematography-section mb-5 pb-5" >
-            <div class="cinematography-section-main" data-aos="zoom-in"  data-aos-duration="1000">
+        <div class="single-cinematography-section my-5 pb-5" >
+            <div class="cinematography-section-main">
                 <div class="c-title">
                     <h1>THE TRAIN AT 5PM</h1>
                 </div>
@@ -52,7 +52,7 @@
                 <div class="c-poster">
                 <img class="cinematography-main-img" src="<?php echo get_template_directory_uri() . '/assets/img/Cinematography/GEN_Z_UNRAVELLED/GEN_Z_UNRAVELLED.webp' ?>" alt="">
                 </div>
-                <div class="c-details ms-md-5">
+                <div class="c-details ms-md-5  mt-md-0 mt-5">
                     <div class="c-details-section ">
                         <p class="fw-bold">DIRECTED BY</h1>
                         <p>Cordelia Harris</p>

@@ -19,7 +19,7 @@
                 </div>
             </div>  
             <div class="container">
-            <div class=" mobile-photo-gallery  row col-12 justify-content-xl-between justify-content-lg-between justify-content-md-between justify-content-center m-0">
+            <div class=" row col-12 justify-content-xl-between justify-content-lg-between justify-content-md-between justify-content-center m-0">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-947.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-940.webp' ?>" alt="">
                 <img class="project-image-gallary-item" src="<?php echo get_template_directory_uri() . '/assets/img/TRUE-CULTURE/pixels-948.webp' ?>" alt="">
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="container" >
-            <div class=" mobile-photo-gallery  row col-lg-9 col-md-9 col-sm-12 justify-content-center justify-content-lg-between justify-content-md-between justify-content-sm-center m-auto my-4">
+            <div class=" row col-lg-9 col-md-9 col-sm-12 justify-content-center justify-content-lg-between justify-content-md-between justify-content-sm-center m-auto my-4">
                 <img class="project-image-gallary-item" style="height:400px" src="<?php echo get_template_directory_uri() . '/assets/img/HOS/HOS_1.webp' ?>" alt="">
                 <img class="project-image-gallary-item" style="height:400px" src="<?php echo get_template_directory_uri() . '/assets/img/HOS/HOS_2.webp' ?>" alt="">
                 <img class="project-image-gallary-item" style="height:400px" src="<?php echo get_template_directory_uri() . '/assets/img/HOS/HOS_3.webp' ?>" alt="">
