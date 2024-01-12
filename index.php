@@ -4,12 +4,11 @@
             <h1>Page Not Found</h1>
             <div>
                 <p>Sorry, but the page you were trying to view does not exist.</p>
-                <p>Link to pages below:</p>
+                <p>Link available pages:</p>
                 <ul class="all-pages">
                     <li><a href="/">Home</a></li>
                     <li><a href="/work">Work</a></li>
                     <li><a href="/cinematography">Cinematography</a></li>
-                    <li><a href="/about">About</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
