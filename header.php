@@ -21,8 +21,8 @@
 
 <div class="container" style="max-width:1200px;">
 <div class=" header-container" >
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+    <header class="d-flex flex-wrap justify-content-center m-auto p-auto border-bottom">
+      <a href="/" class="d-flex align-items-center my-5 my-md-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
         <img width="160px" height="100px" src="<?php echo get_template_directory_uri() . '/assets/img/Site_logo.svg'?>" alt="Site Logo" >
       </a>
       <div class="mobile-menu-button">
@@ -38,7 +38,7 @@
         <ul class="nav nav-pills align-self-center justify-content-center">
         <li class="nav-item"><a href="/Work" class="nav-link text-dark">WORK</a></li>
         <li class="nav-item"><a href="/Cinematography" class="nav-link text-dark">CINEMATOGRAPHY</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark" aria-current="page">CONTACT</a></li>  
+        <li class="nav-item"><a href="/contact" class="nav-link text-dark" aria-current="page">CONTACT</a></li>  
         </ul>
       </div>
     </header>

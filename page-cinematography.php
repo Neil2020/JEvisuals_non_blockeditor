@@ -10,27 +10,27 @@
                 </div>
                 <div class="c-details ms-md-5  mt-md-0 mt-5">
                     <div class="c-details-section">
-                        <h1>DIRECTED BY</h1>
+                        <p class="fw-bold">DIRECTED BY</p>
                         <p>Jonah McLachlan</p>
                     </div>
                     <div class="c-details-section">
-                        <h1>PRODUCED BY</h1>
+                        <p class="fw-bold">PRODUCED BY</p>
                         <p>Alana Carling</p>
                     </div>
                     <div class="c-details-section">
-                        <h1>DIRECTOR OF PHOTOGRAPHY</h1>
+                        <p class="fw-bold">DIRECTOR OF PHOTOGRAPHY</p>
                         <p>Jaden Eades</p>
                     </div>
                     <div class="c-details-section">
-                        <h1>EDITED BY</h1>
+                        <p class="fw-bold">EDITED BY</p>
                         <p>Jaden Eades</p>
                     </div>
                     <div class="c-details-section">
-                        <h1>FORMAT</h1>
+                        <p class="fw-bold">FORMAT</p>
                         <p>BlackMagic Ursa, Raw 4K</p>
                     </div>
                     <div class="c-details-section">
-                        <h1>LOCATION</h1>
+                        <p class="fw-bold">LOCATION</p>
                         <p>Sydney, Australia</p>
                     </div>
                 </div>
@@ -54,27 +54,27 @@
                 </div>
                 <div class="c-details ms-md-5">
                     <div class="c-details-section ">
-                        <h1>DIRECTED BY</h1>
+                        <p class="fw-bold">DIRECTED BY</h1>
                         <p>Cordelia Harris</p>
                     </div>
                     <div class="c-details-section">
-                        <h1>PRODUCED BY</h1>
+                        <p class="fw-bold">PRODUCED BY</h1>
                         <p>Elena Hale</p>
                     </div>
                     <div class="c-details-section">
-                        <h1>DIRECTOR OF PHOTOGRAPHY</h1>
+                        <p class="fw-bold">DIRECTOR OF PHOTOGRAPHY</h1>
                         <p>Jaden Eades</p>
                     </div>
                     <div class="c-details-section">
-                        <h1>EDITED BY</h1>
+                        <p class="fw-bold">EDITED BY</h1>
                         <p>Jaden Eades</p>
                     </div>
                     <div class="c-details-section">
-                        <h1>FORMAT</h1>
+                        <p class="fw-bold">FORMAT</h1>
                         <p>Canon EOS C200, Sony A7iii</p>
                     </div>
                     <div class="c-details-section">
-                        <h1>LOCATION</h1>
+                        <p class="fw-bold">LOCATION</h1>
                         <p>Sydney, Australia</p>
                     </div>
                 </div>

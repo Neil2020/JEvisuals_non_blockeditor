@@ -17,6 +17,10 @@ root{
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
     }
+    li{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+    }
 .page-transition{
     position: absolute;
     overflow: visible;
@@ -50,8 +54,8 @@ root{
 
 }
 .s_logo {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     object-fit: contain;
     margin: 0px 0px 0px 0px;
 }
@@ -88,6 +92,24 @@ root{
 .mobile-menu-button{
     display: none;
 }
+.menu-items ul li.nav-item a{
+    transition: all 1s ease-in-out;
+}
+.menu-items ul li.nav-item a::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 1px;
+    background: #000;
+    transition: all 1s;
+}
+.menu-items ul li.nav-item a:hover{
+    scale: 1.1;
+}
+.menu-items ul li.nav-item a:hover::after{
+    width: 100%;
+    
+}
 @media screen and (max-width:767px){
 
     .mobile-menu-button{
@@ -102,13 +124,13 @@ root{
         text-align: center;
         line-height: 50px;
         cursor: pointer;
-        transition: all 2s;
+        transition: all 1s;
     }
     .mobile-menu-button > svg{
         color: #000000;
     }
     .menu-items{
-        transition:all 2s;
+        transition:all 1s;
         position:fixed;
         z-index:99;
         right:0%;
@@ -128,12 +150,12 @@ root{
         border: 1px solid rgba(255, 255, 255, 0.3);
     }
     
-    .menu-items ul li.nav-item{
-        border-bottom:0.5px solid #000; 
-    }
     .menu-items ul li.nav-item a{
         color:#000 !important;
-    }}
+    }
+
+
+}
 
     .show-mobile-menu{
         transform:translateX(0%);
@@ -209,9 +231,67 @@ root{
     
 }
 
+@media screen and (max-width: 764px) {
+    .project-image-gallary-item{
+        width: 100%;
+        height: 100%;
+        scroll-snap-align: start;
+    }
+    .mobile-photo-gallery{
+        display: flex;
+        flex-direction: column !important;
+        scroll-snap-type: x mandatory;
+        justify-content: center;
+        align-items: center;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        max-width: fit-content;
+        max-height: 480px ;
+    }
+    .mobile-photo-gallery::-webkit-scrollbar {
+        background-color: #000;
+        border-radius: 30px !important;
+        height: 10px;
+    }
+    .mobile-photo-gallery::-webkit-scrollbar-thumb {
+        background-color: #fff;
+        border-radius: 30px !important;
+        border: 1px solid grey;
+    }
+    .mobile-photo-gallery::-webkit-scrollbar-track {
+        background-color: #000;
+        border-radius: 30px !important;
+        border: 1px solid white;
+    }
+
+}
+
+.work-page-name::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 1px;
+    background: #000;
+    transition: all 1s;
+}
+a.work-container-block:hover{
+      .work-category-image-holder{
+        transform: scale(1.03);
+        transition: all 1s;
+      }
+      .work-page-name{
+        transform: scale(1.03);
+        transition: all 1s;
+      }
+      .work-page-name::after{
+        width: 100%;
+      
+      }
+}
+
 .work-category-image-holder{
-    width: 20vw;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     max-height: 300px;
     max-width: 300px;
 }
@@ -219,6 +299,23 @@ root{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+@media screen {
+    .port-vemio-fix{
+        max-height: fit-content !important;
+    }
+}
+@media  screen  and (max-width:764px) {
+    div.port-vemio-fix{
+        margin:auto !important;
+    }
+    div.port-vemio-fix div{
+        margin: auto !important;
+    }
+
+    div.port-vemio-fix div div.embed-container{
+        margin: 20px 0px 20px 0px !important;
+    }
 }
 
 .vemio-vid-frame{
@@ -334,3 +431,67 @@ root{
         width: 100%;
     }
 }
+
+/*Form*/
+form p label{
+    font-style: italic;
+}
+form p input{
+    border-radius: 30px; 
+}
+form p input[type="submit"]:hover{
+    transition: all 1s ease-in-out;
+    scale: 1.1;
+}   
+form p textarea{
+    border-radius: 30px;
+}
+
+form {
+    max-width: 500px;
+}
+
+@media screen and (max-width: 500px) {
+    form p input{
+        width: 80%;
+    }
+    form p input[type="submit"]{
+        width: 50%;
+    }
+    form p textarea{
+        width: 80%;
+         
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+}
+
+/*Form End*/
+
+/*404*/
+.all-pages li{
+    list-style: none;
+    transition: all 1s ease-in-out;
+}
+.all-pages li a{
+    font-style: italic;
+    text-decoration: none;
+    color: #000000;
+}
+.all-pages li a::after{
+    width: 0%;
+    height: 1px;
+    content: "";
+    display: block;
+    background-color: #000000;
+    transition: all 1s ease-in-out;
+}
+.all-pages a:hover::after{
+    width: 150px;
+    transition: all 1s ease-in-out;
+}
+/*404 End*/
