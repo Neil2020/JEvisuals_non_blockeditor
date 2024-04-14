@@ -21,12 +21,13 @@
                 </div>
                 </div>
             </div>
-    <div class="container vemio-width-container my-5 py-5">
+    <!--<div class="container vemio-width-container my-5 py-5">
         <div class="embed-container d-flex justify-content-center mt-3" style="width:auto;">    
             <div class="w-100 h-100" style="float:center;">
                     <iframe class="vemio-vid-frame" src="https://player.vimeo.com/video/923191510?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="Front Cover MAIN"></iframe>
                 </div>
         </div>
+                    -->
     </div>
     <div class="container vemio-width-container my-5 py-5">
             <div class="embed-container d-flex justify-content-center mt-3" style="width:auto;">    
