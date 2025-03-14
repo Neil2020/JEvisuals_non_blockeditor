@@ -2,7 +2,7 @@
     <div class="container my-3" >
         <!-- Create a Container to hold a Vemio video --> 
         <div class="container vemio-width-container my-5 py-5">
-            <h3>MONTORINO<span class="project-title-span"> <span class="fst-italic">Director, Editor</span></span></h3>
+            <h3>MOTORINO<span class="project-title-span"> <span class="fst-italic">Director, Editor</span></span></h3>
             <div class="embed-container d-flex justify-content-center m-auto mt-0" style="width:auto;">
                 <iframe class="vemio-vid-frame"  src="https://player.vimeo.com/video/943189400?autoplay=0&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
                 </iframe>
